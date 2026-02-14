@@ -493,6 +493,8 @@ Below is a step-by-step guide to every main feature.
 
 ### 1. First launch and onboarding
 
+**[insert video here]**
+
 1. Open the app at `http://localhost:3000` (with backend running on `http://localhost:4000`).
 2. On first visit, an **onboarding tour** may start automatically. It highlights:
    - Dashboard (overview and heatmap)
@@ -503,6 +505,8 @@ Below is a step-by-step guide to every main feature.
 ---
 
 ### 2. Dashboard
+
+**[insert video here]**
 
 1. The **Dashboard** tab is the default home.
 2. **Activity heatmap** (top): Shows the last 12 months. Each cell is a day; darker green = more activity (habits done + tasks completed + Pomodoros that day). Hover a cell to see the breakdown (Habits / Tasks / Pomodoros).
@@ -517,6 +521,8 @@ Below is a step-by-step guide to every main feature.
 
 ### 3. Habits tab
 
+**[insert video here]**
+
 1. Switch to the **Habits** tab.
 2. **Activity heatmap** at the top (same as Dashboard); it updates in real time when you add or complete habits.
 3. **Live clock** and **Habit focus timer**: Use the dropdown (5 / 10 / 15 / 20 min) and **Start** to run a short focus session for a habit.
@@ -529,6 +535,8 @@ Below is a step-by-step guide to every main feature.
 ---
 
 ### 4. Pomodoro tab
+
+**[insert video here]**
 
 1. Switch to the **Pomodoro** tab.
 2. **Activity heatmap** at the top; it updates when you complete a **work** session.
@@ -544,6 +552,8 @@ Below is a step-by-step guide to every main feature.
 
 ### 5. Tasks tab
 
+**[insert video here]**
+
 1. Switch to the **Tasks** tab.
 2. **Activity heatmap** at the top; it updates when you add, complete, or delete tasks (and when you toggle completion in the expanded form).
 3. **Add a task**: Type a title and click **+** (or press Enter). Optionally click **Options** to set **Due date**, **Priority** (High / Medium / Low), **Category** (type or pick), and **Est. minutes**.
@@ -557,6 +567,8 @@ Below is a step-by-step guide to every main feature.
 
 ### 6. Notes tab
 
+**[insert video here]**
+
 1. Switch to the **Notes** tab.
 2. **List (left)**: All notes. Click a note to open it in the editor. **New note** creates a blank note.
 3. **Editor (right)**:
@@ -568,6 +580,8 @@ Below is a step-by-step guide to every main feature.
 
 ### 7. Activity heatmap (all tabs)
 
+**[insert video here]**
+
 - The same **calendar heatmap** appears on **Dashboard**, **Habits**, **Pomodoro**, and **Tasks**.
 - It combines **habits completed per day**, **tasks completed per day** (by completion date), and **Pomodoro work sessions per day**.
 - It updates in **real time** on the Habits tab when you add/complete/delete habits; on the Pomodoro tab when you complete a work session; on the Tasks tab when you add/complete/delete tasks or toggle completion.
@@ -576,6 +590,8 @@ Below is a step-by-step guide to every main feature.
 ---
 
 ### 8. Quick reference
+
+**[insert video here]**
 
 | Goal                    | Where to go   | What to do                                              |
 | ------------------      | ------------- | ------------------------------------------------------- |
