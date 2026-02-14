@@ -1,0 +1,15 @@
+{
+  "name": "finalproj-backend",
+  "version": "1.0.0",
+  "description": "Habit tracker + Pomodoro + Task list API (Singleton, Factory, Observer)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
