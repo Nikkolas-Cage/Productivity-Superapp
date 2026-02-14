@@ -37,10 +37,10 @@ This project runs **without MongoDB** by default (in-memory store). Install Mong
 ```bash
 # If you have the repo via Git:
 git clone <your-repo-url>
-cd finalsSirAlipe
+cd Productivity-Superapp
 
 # Or open the project folder you already have:
-cd /path/to/finalsSirAlipe
+cd /path/to/Productivity-Superapp
 ```
 
 You should see:
@@ -485,7 +485,7 @@ class TimerObserver {
 
 ## How to use the app (step-by-step guide)
 
-**[insert video here]** — *Add your walkthrough or demo video via GitHub (e.g. embed or link).*
+**[insert video here]** — _Add your walkthrough or demo video via GitHub (e.g. embed or link)._
 
 Below is a step-by-step guide to every main feature.
 
@@ -593,11 +593,11 @@ Below is a step-by-step guide to every main feature.
 
 **[insert video here]**
 
-| Goal                    | Where to go   | What to do                                              |
-| ------------------      | ------------- | ------------------------------------------------------- |
-| See overview            | Dashboard     | Check heatmap and summary cards; click cards to jump.   |
-| Log daily habits        | Habits        | Pick date, tick habits, or add new ones.                |
-| Run a focus session     | Pomodoro      | Set work/break minutes, press Start.                    |
-| Add a one-off to-do     | Tasks         | Type title, optionally set due date/priority, Add.      |
-| Quick notes / paste media | Notes       | Create note, type or paste; Save.                       |
-| Replay app tour         | Header        | Click **?** (question mark).                            |
+| Goal                      | Where to go | What to do                                            |
+| ------------------------- | ----------- | ----------------------------------------------------- |
+| See overview              | Dashboard   | Check heatmap and summary cards; click cards to jump. |
+| Log daily habits          | Habits      | Pick date, tick habits, or add new ones.              |
+| Run a focus session       | Pomodoro    | Set work/break minutes, press Start.                  |
+| Add a one-off to-do       | Tasks       | Type title, optionally set due date/priority, Add.    |
+| Quick notes / paste media | Notes       | Create note, type or paste; Save.                     |
+| Replay app tour           | Header      | Click **?** (question mark).                          |
