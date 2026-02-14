@@ -480,3 +480,108 @@ class TimerObserver {
 
 - **Backend:** Express, in-memory store (Singleton), EntityFactory, AppObserver (EventEmitter). Optional: MongoDB for persistence.
 - **Frontend:** Next.js, React, Chakra UI, TimerObserver for Pomodoro events.
+
+---
+
+## How to use the app (step-by-step guide)
+
+**[insert video here]** — *Add your walkthrough or demo video via GitHub (e.g. embed or link).*
+
+Below is a step-by-step guide to every main feature.
+
+---
+
+### 1. First launch and onboarding
+
+1. Open the app at `http://localhost:3000` (with backend running on `http://localhost:4000`).
+2. On first visit, an **onboarding tour** may start automatically. It highlights:
+   - Dashboard (overview and heatmap)
+   - Activity heatmap
+   - Habits, Pomodoro, Tasks, and Notes tabs
+3. Use **Next** / **Back** to move, or **Skip** to close. You can replay the tour anytime via the **?** (question mark) button in the header.
+
+---
+
+### 2. Dashboard
+
+1. The **Dashboard** tab is the default home.
+2. **Activity heatmap** (top): Shows the last 12 months. Each cell is a day; darker green = more activity (habits done + tasks completed + Pomodoros that day). Hover a cell to see the breakdown (Habits / Tasks / Pomodoros).
+3. **Summary cards** (clickable):
+   - **Habits today** — Click to jump to the Habits tab.
+   - **Tasks done** — Click to jump to the Tasks tab.
+   - **Pomodoros today** — Click to jump to the Pomodoro tab.
+   - **Active items** — Click to jump to the Tasks tab (habits + open tasks count).
+4. **How we count** — Expandable section explaining how each metric is computed.
+
+---
+
+### 3. Habits tab
+
+1. Switch to the **Habits** tab.
+2. **Activity heatmap** at the top (same as Dashboard); it updates in real time when you add or complete habits.
+3. **Live clock** and **Habit focus timer**: Use the dropdown (5 / 10 / 15 / 20 min) and **Start** to run a short focus session for a habit.
+4. **View / log for date**: Use the date picker to see or log habits for **any past or today’s** date.
+5. **Today’s progress**: Bar and text show “X of Y habits done” for the selected date.
+6. **Add a habit**: Type a name, choose **Daily** or **Weekly**, then click the **+** (or press Enter). Daily = every day; Weekly = at least once per week.
+7. **Check off a habit**: Tick the checkbox for a habit on the selected date. Streak and “X of Y” update; the heatmap refreshes.
+8. **Delete a habit**: Click the red trash icon next to the habit.
+
+---
+
+### 4. Pomodoro tab
+
+1. Switch to the **Pomodoro** tab.
+2. **Activity heatmap** at the top; it updates when you complete a **work** session.
+3. **Timer settings** (edit when the timer is stopped):
+   - **Work (min)**: e.g. 25 (default). Allowed range 1–120.
+   - **Break (min)**: e.g. 5 (default). Allowed range 1–60.
+4. **Big timer**: Shows remaining time (MM:SS). **Focus** = work, **Break** = break.
+5. **Start** — Starts the current phase (work or break). **Reset** — Stops and resets to full duration. **Switch to Break/Work** — Toggles the next phase (only when stopped).
+6. **Gamification**: Level, total XP, “Today” (work sessions), “Streak” (consecutive days with ≥1 work session). Progress bar for XP to next level.
+7. **Achievements**: Grid of badges; locked (🔒) vs unlocked (🏆). Unlock by completing sessions and streaks; toasts appear when you unlock one.
+
+---
+
+### 5. Tasks tab
+
+1. Switch to the **Tasks** tab.
+2. **Activity heatmap** at the top; it updates when you add, complete, or delete tasks (and when you toggle completion in the expanded form).
+3. **Add a task**: Type a title and click **+** (or press Enter). Optionally click **Options** to set **Due date**, **Priority** (High / Medium / Low), **Category** (type or pick), and **Est. minutes**.
+4. **Complete a task**: Check the checkbox. The task is marked done and the heatmap updates.
+5. **Expand a task**: Click the **▼** icon to edit **Due date**, **Priority**, **Category**, and **Notes**. Changes save as you edit. Toggling **completed** here also refreshes the heatmap.
+6. **Sort**: Use the dropdown to sort by **Due**, **Priority**, or **Newest**.
+7. **Filter**: Filter by **Priority** and **Category**.
+8. **Delete**: Red trash icon on the row. **Overdue** count appears at the top when you have incomplete tasks past their due date.
+
+---
+
+### 6. Notes tab
+
+1. Switch to the **Notes** tab.
+2. **List (left)**: All notes. Click a note to open it in the editor. **New note** creates a blank note.
+3. **Editor (right)**:
+   - **Title** and **Description** (optional). **Save** writes to the list (create or update). **Draft** badge appears when there are unsaved changes.
+   - **Content** area: You can type and **paste text, images, and video**. Pasted images/video are stored as data URLs so they persist. Use **Delete** (trash) when a note is selected to remove it.
+4. Notes are stored in the browser (**localStorage**); they stay on this device only.
+
+---
+
+### 7. Activity heatmap (all tabs)
+
+- The same **calendar heatmap** appears on **Dashboard**, **Habits**, **Pomodoro**, and **Tasks**.
+- It combines **habits completed per day**, **tasks completed per day** (by completion date), and **Pomodoro work sessions per day**.
+- It updates in **real time** on the Habits tab when you add/complete/delete habits; on the Pomodoro tab when you complete a work session; on the Tasks tab when you add/complete/delete tasks or toggle completion.
+- Hover a day to see the breakdown (e.g. “Habits: 2, Tasks: 1, Pomodoros: 3 · Total: 6”).
+
+---
+
+### 8. Quick reference
+
+| Goal                    | Where to go   | What to do                                              |
+| ------------------      | ------------- | ------------------------------------------------------- |
+| See overview            | Dashboard     | Check heatmap and summary cards; click cards to jump.   |
+| Log daily habits        | Habits        | Pick date, tick habits, or add new ones.                |
+| Run a focus session     | Pomodoro      | Set work/break minutes, press Start.                    |
+| Add a one-off to-do     | Tasks         | Type title, optionally set due date/priority, Add.      |
+| Quick notes / paste media | Notes       | Create note, type or paste; Save.                       |
+| Replay app tour         | Header        | Click **?** (question mark).                            |
