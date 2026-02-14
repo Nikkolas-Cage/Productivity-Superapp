@@ -324,6 +324,7 @@ So **Singleton** holds the single store; **Factory** is the single place that cr
 ---
 
 ### 3. Observer
+<img width="380" height="292" alt="Screenshot 2026-02-14 at 1 47 23 PM" src="https://github.com/user-attachments/assets/c50782db-0317-454a-b975-e4d83e28d154" />
 
 **Purpose:** Decouples “something changed” from “who reacts.” When habits, tasks, or pomodoro sessions are created, updated, or completed, the backend emits events. Subscribers (e.g. logging, future SSE or webhooks) can listen without the routes knowing the details. The frontend uses a separate observer for Pomodoro timer events (tick, start, complete).
 
