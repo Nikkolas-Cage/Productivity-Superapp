@@ -486,15 +486,16 @@ class TimerObserver {
 
 ## How to use the app (step-by-step guide)
 
-**[insert video here]** — _Add your walkthrough or demo video via GitHub (e.g. embed or link)._
+
+https://github.com/user-attachments/assets/36ad5f7d-577b-4389-8c2b-96068c1d1ef9
+
+
 
 Below is a step-by-step guide to every main feature.
 
 ---
 
 ### 1. First launch and onboarding
-
-**[insert video here]**
 
 1. Open the app at `http://localhost:3000` (with backend running on `http://localhost:4000`).
 2. On first visit, an **onboarding tour** may start automatically. It highlights:
@@ -507,7 +508,9 @@ Below is a step-by-step guide to every main feature.
 
 ### 2. Dashboard
 
-**[insert video here]**
+
+https://github.com/user-attachments/assets/2c503f18-5376-4031-87e0-ff997204ee88
+
 
 1. The **Dashboard** tab is the default home.
 2. **Activity heatmap** (top): Shows the last 12 months. Each cell is a day; darker green = more activity (habits done + tasks completed + Pomodoros that day). Hover a cell to see the breakdown (Habits / Tasks / Pomodoros).
@@ -522,7 +525,10 @@ Below is a step-by-step guide to every main feature.
 
 ### 3. Habits tab
 
-**[insert video here]**
+
+https://github.com/user-attachments/assets/790a0efd-5989-4be3-a276-94ca99bb71db
+
+
 
 1. Switch to the **Habits** tab.
 2. **Activity heatmap** at the top (same as Dashboard); it updates in real time when you add or complete habits.
@@ -537,7 +543,10 @@ Below is a step-by-step guide to every main feature.
 
 ### 4. Pomodoro tab
 
-**[insert video here]**
+https://github.com/user-attachments/assets/840c170b-7744-459e-a25a-5c3a4f627372
+
+
+
 
 1. Switch to the **Pomodoro** tab.
 2. **Activity heatmap** at the top; it updates when you complete a **work** session.
@@ -553,7 +562,10 @@ Below is a step-by-step guide to every main feature.
 
 ### 5. Tasks tab
 
-**[insert video here]**
+
+https://github.com/user-attachments/assets/0050a0cf-4d60-4dff-a996-a0e596254d1d
+
+
 
 1. Switch to the **Tasks** tab.
 2. **Activity heatmap** at the top; it updates when you add, complete, or delete tasks (and when you toggle completion in the expanded form).
@@ -568,7 +580,10 @@ Below is a step-by-step guide to every main feature.
 
 ### 6. Notes tab
 
-**[insert video here]**
+
+
+https://github.com/user-attachments/assets/8410ae38-e486-4f13-8aee-9e3e3a72b7d8
+
 
 1. Switch to the **Notes** tab.
 2. **List (left)**: All notes. Click a note to open it in the editor. **New note** creates a blank note.
@@ -580,8 +595,7 @@ Below is a step-by-step guide to every main feature.
 ---
 
 ### 7. Activity heatmap (all tabs)
-
-**[insert video here]**
+<img width="922" height="229" alt="Screenshot 2026-02-14 at 2 33 58 PM" src="https://github.com/user-attachments/assets/74298d08-af44-4660-88f8-8dc463e56a22" />
 
 - The same **calendar heatmap** appears on **Dashboard**, **Habits**, **Pomodoro**, and **Tasks**.
 - It combines **habits completed per day**, **tasks completed per day** (by completion date), and **Pomodoro work sessions per day**.
@@ -592,7 +606,6 @@ Below is a step-by-step guide to every main feature.
 
 ### 8. Quick reference
 
-**[insert video here]**
 
 | Goal                      | Where to go | What to do                                            |
 | ------------------------- | ----------- | ----------------------------------------------------- |
